@@ -130,18 +130,17 @@ padding-right: 40px;
 }
 .page3{
     height: 150vh;
+    margin-top: 20vh;
     background-color: #17b212;
 }
 .page4{
     height: 130vh;
-
-
 }
 .page4>.top{
     display: flex;
     background-color: 
     #dbf1fc;
-    padding: 2%;
+    padding: 1;
     margin: 2vw;
     height: 30vh;
     justify-content: space-between;
@@ -170,13 +169,14 @@ font-weight: 200;
 .page4>.top>.left>p{
     font-weight: 200;
     word-spacing: 2px;
-    letter-spacing: 2px;
+    letter-spacing: 1.8px;
     font-size: 2,5vh;
+    color: rgb(75, 73, 73);
 }
 
 .page4>.top>.right>button{
 
-
+margin-right: 2vw;
     background-color:
     #17b212;
     color: white;
@@ -192,12 +192,18 @@ font-weight: 200;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    gap: 2.5vh;
+
+
+   
 
 }
 .page4>.bottom>h1{
+
     font-size: 7vh;
     font-weight: 900;
+    margin-bottom: -8vh;
+    margin-top: 8vh;
+ 
    
 }
 .page4>.bottom>.container{
@@ -206,7 +212,7 @@ font-weight: 200;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 2vh;
+    gap: 1vh;
     height: 100vh;
  
 }
@@ -224,4 +230,191 @@ font-weight: 200;
     color: grey;
     font-size: 2.5vh;
     letter-spacing: .15vw;
+}
+
+.page5{
+    height: 100vh;
+    width: 100vw;
+    background-color:#e5f6ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+    justify-content: space-around;
+    gap: 8vh    ;
+}
+.page5>h1,.page6>h1{
+    font-size: 9vh;
+    font-weight: 900;
+
+}
+
+.page5>.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vh;
+    
+
+}
+.page5>.container>.box1{
+    height: 40%;
+    width: 30%;
+    display: flex;
+   
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.page5>.container>.box1>p{
+    color: grey;
+    font-size: 2.5vh;
+    letter-spacing: .15vw;
+    margin-top: 2vh;
+}
+.page6{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    margin: 9vh 0px;
+    align-items: center;
+    justify-content: center;
+
+}
+.page6>p{
+    font-size: 2.5vh;
+    letter-spacing: .05vw;
+    color: rgb(77, 73, 73);
+ 
+}
+.page6>.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+
+    
+}
+.page6>.container>.box1{
+    height: 40%;
+    width: 30%;
+    display: flex;
+  
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.page6>.container>.box1>p{
+    color: grey;
+    font-size: 2.5vh;
+    letter-spacing: .15vw;
+    margin-top: 2vh;
+
+
+}
+.page6>button,.page7>.left>button{
+    width: 25%;
+    background-color:
+    #17b212;
+    color: white;
+    font-size: 3vh;
+    padding: 3vh 2vw;
+    border: none;
+}
+.page7{
+    width: 100vw;
+    height: 90vh;
+    background-color: 
+    #84c0fc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vh 1vw;
+    
+}
+.page7>.left{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4vh;
+}
+.page7>.left>h3{
+    font-size: 2.5vh;
+    font-weight: 100;
+   
+    letter-spacing: .20vw;
+}
+.page7>.left>p{
+    letter-spacing: .15vw;
+    color: rgb(80, 79, 79);
+
+}
+.page7>.left>h2{
+    font-size: 7vh;
+    font-weight: 800;
+}
+
+.page7>.right{
+width: 40%;
+padding-left: 5vw;
+}
+.page7>.right>img{
+    object-fit: cover;
+    object-position: center;
+    
+}
+.page8{
+    background-color: 
+    #03243b;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+.page8>h1{
+    font-size: 7vh;
+    font-weight: 900;
+    color: white;
+
+}
+.page8>p{
+    color:    #84c0fc;
+}
+.page8>button{
+    width: 20%;
+    background-color:
+    #17b212;
+    color: white;
+    font-size: 3vh;
+    padding: 3vh 2vw;
+    border: none;
+}
+.p9{
+    width: 100vw;
+    height: 10vh;
+    background-color:
+    #1d2a3b;
+      color: white;
+      padding: 2vh;
+}
+.p9>ul{
+  
+    display: flex;
+    list-style: none;
+    gap: 2vw;
+    justify-content: space-between;
+    align-items: center;
 }
