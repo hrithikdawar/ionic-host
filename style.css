@@ -475,11 +475,124 @@ padding-left: 5vw;
       color: white;
       padding: 2vh;
 }
-.p9>ul{
-  
+.p9>ul{  
     display: flex;
     list-style: none;
     gap: 2vw;
     justify-content: space-between;
     align-items: center;
 }
+.toggle{
+    display:initial;
+  
+}
+
+
+@media (max-width: 600px) {
+
+    nav>ul{
+        display: none;
+
+    }
+    .toggle div {
+        width: 25px;
+        height: 3px;
+        margin: 5px 0;
+        background-color: rgb(44, 39, 39);
+    }
+    
+    .page1>.content{
+        flex-direction: column;
+        height: 200vh;
+    }
+    .page1>.content>.left{
+        width: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .page1>.content>.right{
+        width: 100vh;
+    }
+    .page2{
+        margin-top: 80vh;
+        height: 120vh;
+        padding-top: 50vh;
+        
+        
+    }
+    .page3{
+        flex-direction: column;
+    }
+    .page3>.box1{
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .page3>.box1>.top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .page3>.box1>.bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .page3>.box1>.bottom>ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+    }
+    .page4{
+        height: 300vh;
+    }
+    .page4>.top{
+
+        height: 70vh;
+        margin-bottom: 20vh;
+        
+       
+    }
+    .page4>.bottom>h1
+    {
+        margin-top: -10vh;
+        margin-bottom:20vh;
+    }
+    .page4>.bottom  .container{
+        margin-top: 20vh;
+        display: flex;
+        flex-wrap: nowrap;
+       
+
+
+    }
+     .page4>.bottom  .container .box{
+        width: 70vw;
+        padding: 2vw;
+     }
+     .page5{
+        height:  150vh;
+     }
+     .page6{
+        height: 200vh;
+     }
+     .page7>.left>button {
+        width: 50%;
+       
+     }
+     .p9{
+        height: 29vh;
+     }
+     .p9>ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5vh;
+
+
+     }
+  }
+  
