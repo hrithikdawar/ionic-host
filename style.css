@@ -480,6 +480,16 @@ padding-left: 5vw;
     display:initial;
   
 }
+@media (max-width:300px) {
+    .page1>.content>.left{
+      
+        padding-left: 70%;
+        
+       
+    }
+    
+    
+}
 
 
 @media (max-width: 600px) {
@@ -503,7 +513,8 @@ padding-left: 5vw;
         width: 100vh;
         justify-content: center;
         align-items: center;
-        padding-left: 70%;
+      
+        
        
     }
     
