@@ -45,7 +45,6 @@ padding-right: 40px;
     width: 100vw;
     background-color: 
     #274780;
-
     display: flex;
     color: white;
    align-items: end;
@@ -53,7 +52,6 @@ padding-right: 40px;
 }
 .page1>.content>.left{
     width: 50vw;
-    height: 100vh;
     display: flex;
     justify-content: end;
     flex-direction: column;
@@ -100,7 +98,6 @@ padding-right: 40px;
 .page2{
     margin-top: 20vh;
     width: 100vw;   
-    height: 50%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -298,7 +295,7 @@ margin-right: 2vw;
 }
 
 .page5{
-    height: 100vh;
+    
     width: 100vw;
     background-color:#e5f6ff;
     display: flex;
@@ -307,7 +304,7 @@ margin-right: 2vw;
     align-items: center;
     padding: 5vw;
     justify-content: space-around;
-    gap: 8vh    ;
+    gap: 8vh;
 }
 .page5>h1,.page6>h1{
     font-size: 9vh;
@@ -322,7 +319,6 @@ margin-right: 2vw;
     flex-wrap: wrap;
     gap: 4vh;
     
-
 }
 .page5>.container>.box1{
     height: 40%;
@@ -341,7 +337,6 @@ margin-right: 2vw;
 }
 .page6{
     width: 100vw;
-    height: 90vh;
     display: flex;
     flex-direction: column;
     gap: 4vh;
@@ -371,8 +366,7 @@ margin-right: 2vw;
 .page6>.container>.box1{
     height: 40%;
     width: 30%;
-    display: flex;
-  
+    display: flex;  
     justify-content: center;
     flex-direction: column;
     
@@ -396,7 +390,7 @@ margin-right: 2vw;
 }
 .page7{
     width: 100vw;
-    height: 90vh;
+  
     background-color: 
     #84c0fc;
     display: flex;
@@ -503,24 +497,21 @@ padding-left: 5vw;
     
     .page1>.content{
         flex-direction: column;
-        height: 200vh;
+       
     }
     .page1>.content>.left{
         width: 100vh;
         justify-content: center;
         align-items: center;
+        
+       
     }
     
     .page1>.content>.right{
-        width: 100vh;
+        width: auto;
+        height: auto;
     }
-    .page2{
-        margin-top: 80vh;
-        height: 120vh;
-        padding-top: 50vh;
-        
-        
-    }
+ 
     .page3{
         flex-direction: column;
     }
@@ -574,22 +565,56 @@ padding-left: 5vw;
         width: 70vw;
         padding: 2vw;
      }
-     .page5{
-        height:  150vh;
-     }
-     .page6{
-        height: 200vh;
-     }
-     .page7>.left>button {
-        width: 50%;
+     .page5>.container{
+        flex-direction: column;
        
      }
+     .page5>.container>.box1{
+        width: auto;
+     }
+    
+     .page6{
+           margin-top: 50vh; 
+       
+     }
+     .page6>.container{
+        flex-direction: row;
+        margin: auto;
+       
+     }
+     .page6>.container>.box1{
+        width: 100%;
+        height: auto;
+        padding: auto;
+     }
+     .page6 button{
+        width: 60%;
+        border-radius: 25px;
+     }
+    
+     .page7{
+      flex-direction: column;
+     }
+     .page7>.left{
+        width: 100%;
+     }
+     .page7>.left> button{
+        width: 80%;
+        border-radius: 25px;
+     }
+     .page8 button{
+        width: 80%;
+        border-radius: 25px;
+
+     }
+    
      .p9{
-        height: 29vh;
+        height: 50vh;
      }
      .p9>ul{
-        display: flex;
-        flex-wrap: wrap;
+       
+        flex-direction: column;
+      
         gap: 5vh;
 
 
